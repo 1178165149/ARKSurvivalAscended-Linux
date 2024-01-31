@@ -25,10 +25,14 @@ This includes an auto-restart for the game server if it crashes and auto-update 
 
 By default, the game server will **automatically start at boot**!
 
-## Installation on Debian 12
+## Installation on Debian 12/Ubuntu 20.04
 
 To install ARK Survival Ascended Dedicated Server on Debian 12,
 download and run [server-install-debian12.sh](server-install-debian12.sh)
+
+Ubuntu 20.04:
+download and run [server-install-ubuntu20.sh](server-install-ubuntu20.sh)
+
 as root or sudo.
 
 Debian 12 support tested on Digital Ocean, OVHCloud, and Proxmox.
@@ -36,9 +40,12 @@ Debian 12 support tested on Digital Ocean, OVHCloud, and Proxmox.
 Quick run (if you trust me, which you of course should not):
 
 ```bash
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/cdp1337/ARKSurvivalAscended-Linux/main/server-install-debian12.sh)" root
+sudo su -c "bash <(wget -qO- https://github.com/1178165149/ARKSurvivalAscended-Linux/blob/main/server-install-debian12.sh)" root
 ```
-
+### Ubuntu 20.04
+```bash
+sudo su -c "bash <(wget -qO- https://github.com/1178165149/ARKSurvivalAscended-Linux/blob/main/server-install-ubuntu20.sh)" root
+```
 ## Managing your Server
 
 ### Start, Stop, Restart
